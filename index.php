@@ -57,7 +57,7 @@ jQuery("div[id^=\'clickjack-button-wrapper\']").show();
 	  <a href="index.html" data-description="comienzo">Inicio</a>
 	</li>
 	<li>
-	  <a href="http://blog.iesfrosur.edu.mx/" data-description="pr&#243;ximamente">blog</a>
+	  <a href="http://blog.iesfrosur.edu.mx/" data-description="día a día">blog</a>
 	</li>
 	<?php
 	if(($pagina=="doctorados") or ($pagina=="doctorado-educacion") or ($pagina=="maestrias") or ($pagina=="maestria-educacion") or ($pagina=="ciencias-penales") or ($pagina=="ciencias-de-la-computacion") or ($pagina=="maestria-administracion")) echo '<li class="current">';
