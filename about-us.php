@@ -15,7 +15,7 @@ Gracias por ser parte del <b>iesfrosur</b> y por permitirnos servirte<br />
 </div><!-- end .one-third -->
 <div class="one-third">
   <h4><b>Escudo</b></h4>
-  <p style="text-align: center;"><a href="img/placeholders/iesfro-color.png"><img class="aligncenter size-medium wp-image-506" title="ESCUDO" src="img/placeholders/iesfro-color.png" alt="" width="300" height="255" /></a></p>
+  <p style="text-align: center;"><img class="aligncenter size-medium wp-image-506" title="ESCUDO" src="img/placeholders/iesfro-color.png" alt="" width="300" height="255" /></p>
 <h4><b>Significado:</b></h4>
 <p style="text-align: justify;">El <b>agua</b> significa la vida y representa las grandes bellezas naturales, el <b>cerro</b> sinioso representan nuestros campos de cultivo y la exhuberante sierra  madre de Chiapas, del agua emergen las raices de nuestra existencia con  su máximo florecimiento de la cultura en los <b>mayas</b>, nuestro folklore representado por la <b>marimba</b>, así es nuestro querido chiapas y nosotros en el <b>iesfrosur</b> amamos nuestra tierra.</p>
 <h4><b>Misión</b></h4>

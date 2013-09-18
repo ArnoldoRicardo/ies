@@ -18,9 +18,9 @@ include("var.php");
   <link rel="shortcut icon" href="img/favicon.ico" />  
   <link rel="stylesheet" href="css/style.css" media="screen" />
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,600,300,800,700,400italic|PT+Serif:400,400italic" />
-  <link rel="stylesheet" href="css/fancybox.min.css" media="screen" />
+  <!--<link rel="stylesheet" href="css/fancybox.min.css" media="screen" />
   <link rel="stylesheet" href="css/video-js.min.css" media="screen" />
-  <link rel="stylesheet" href="css/audioplayerv1.min.css" media="screen" />
+  <link rel="stylesheet" href="css/audioplayerv1.min.css" media="screen" />-->
   <!--<![endif]-->
   <!--[if lte IE 6]>
       <link rel="stylesheet" href="//universal-ie6-css.googlecode.com/files/ie6.1.1.css" media="screen, projection">
@@ -28,9 +28,9 @@ include("var.php");
   <!-- HTML5 Shiv + detect touch events -->
   <script src="js/modernizr.custom.js"></script>
   <!-- HTML5 video player -->
-  <script src="js/video.min.js"></script>
-  <script>_V_.options.flash.swf = 'http://localhost/smartstart/js/video-js.swf';</script>
-<!--facebook-->
+  <!--<script src="js/video.min.js"></script>
+  <script>_V_.options.flash.swf = 'http://localhost/smartstart/js/video-js.swf';</script>-->
+<!--facebook
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js" type="text/javascript">
 </script>
 <script type="text/javascript">
@@ -41,7 +41,7 @@ function ClickJackFbShow(){
 jQuery("div[id^=\'clickjack-button-wrapper\']").show();
 }
 </script>
-<!--facebook end-->
+facebook end-->
 </head>
 <body>
   <header id="header" class="container clearfix">
