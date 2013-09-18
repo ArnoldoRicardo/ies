@@ -1,6 +1,5 @@
 /* TEAM */
 	developer: Arnoldo R. L. Fuentes
-	Blog: http://revolution-moon.dx.am/
 
 /* THANKS */
 
@@ -8,7 +7,7 @@
 	Web: http://meteora.mx/
 
 /* SITE */
-	Last update:2012/12/11
+	Last update:2013/09/18
 	Language: Español
 	Doctype:HTML5
 	IDE: Emacs, Gimp, gftp
