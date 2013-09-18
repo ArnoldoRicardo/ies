@@ -41,7 +41,7 @@ function ClickJackFbShow(){
 jQuery("div[id^=\'clickjack-button-wrapper\']").show();
 }
 </script>
-facebook end-->
+<--facebook end-->
 </head>
 <body>
   <header id="header" class="container clearfix">
@@ -220,10 +220,10 @@ facebook end-->
     <script src="js/jquery.easing-1.3.min.js"></script>
     <script src="js/jquery.fancybox.pack.js"></script>
     <script src="js/jquery.smartStartSlider.min.js"></script>
-    <script src="js/jquery.jcarousel.min.js"></script>
+    <!--<script src="js/jquery.jcarousel.min.js"></script>-->
     <script src="js/jquery.cycle.all.min.js"></script>
     <script src="js/jquery.isotope.min.js"></script>
-    <script src="js/audioplayerv1.min.js"></script>
+    <!--<script src="js/audioplayerv1.min.js"></script>-->
     <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
     <script src="js/jquery.gmap.min.js"></script>
     <script src="js/jquery.touchSwipe.min.js"></script>
@@ -265,6 +265,6 @@ facebook end-->
                         }
  
         </script>
-<!--facebook end-->
+<--facebook end-->
   </body>
 </html>
