@@ -16,7 +16,7 @@ include("var.php");
   <meta name="author" content="" />
   <!--[if !lte IE 6]><!-->
   <link rel="shortcut icon" href="img/favicon.ico" />  
-  <link rel="stylesheet" href="css/style.css" media="screen" />
+  <link rel="stylesheet" href="css/style.min.css" media="screen" />
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,600,300,800,700,400italic|PT+Serif:400,400italic" />
   <!--<link rel="stylesheet" href="css/fancybox.min.css" media="screen" />
   <link rel="stylesheet" href="css/video-js.min.css" media="screen" />
@@ -228,10 +228,10 @@ jQuery("div[id^=\'clickjack-button-wrapper\']").show();
     <script src="js/jquery.gmap.min.js"></script>
     <script src="js/jquery.touchSwipe.min.js"></script>
     <?php 
-      if($pagina=="comalapa") echo '<script src="js/custom-comalapa.js"></script>';
-      elseif($pagina=="siltepec") echo '<script src="js/custom-siltepec.js"></script>';
-      elseif($pagina=="motozintla") echo '<script src="js/custom-motozintla.js"></script>';
-      else echo '<script src="js/custom.js"></script>';
+      if($pagina=="comalapa") echo '<script src="js/custom-comalapa.min.js"></script>';
+      elseif($pagina=="siltepec") echo '<script src="js/custom-siltepec.min.js"></script>';
+      elseif($pagina=="motozintla") echo '<script src="js/custom-motozintla.min.js"></script>';
+      else echo '<script src="js/custom.min.js"></script>';
 ?>
     <!--<![endif]-->
 <!--facebook
