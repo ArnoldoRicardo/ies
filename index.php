@@ -52,127 +52,16 @@ jQuery("div[id^=\'clickjack-button-wrapper\']").show();
       <img src="img/logo.png" alt="IESFROSUR" />
     </a>
     <nav id="main-nav">
-      <ul>
-      <?php
-	if(!($pagina)) echo '<li class="current">';
-	else echo "<li>";
-      ?>
-	  <a href="index.html" data-description="comienzo">Inicio</a>
-	</li>
-	<li>
-	  <a href="http://blog.iesfrosur.edu.mx/" data-description="día a día">blog</a>
-	</li>
-	<?php
-	if(($pagina=="doctorados") or ($pagina=="doctorado-educacion") or ($pagina=="maestrias") or ($pagina=="maestria-educacion") or ($pagina=="ciencias-penales") or ($pagina=="ciencias-de-la-computacion") or ($pagina=="maestria-administracion")) echo '<li class="current">';
-	else echo "<li>";
-      ?>
-      <a href="#" data-description="Especializate">posgrados</a>
-      <ul>
-      <?php
-	if(($pagina=="doctorados") or ($pagina=="doctorado-educacion")) echo '<li class="current">';
-	else echo "<li>";
-      ?>
-      <a href="doctorados.html" >Doctorados</a>
-      <ul>
-	<?php 
-	  if($pagina=="doctorado-educacion") echo '<li class="current">';
-	  else echo "<li>";
-	?>
-	<a href="doctorado-educacion.html">Educaci&#243;n</a></li>
-      </ul>
-    </li>
-	<?php
-	  if(($pagina=="maestrias") or ($pagina=="maestria-educacion") or ($pagina=="ciencias-penales") or ($pagina=="ciencias-de-la-computacion") or ($pagina=="maestria-administracion")) echo '<li class="current">';
-	else echo "<li>";
-      ?>
-	  <a href="maestrias.html" >Maestr&#237;as</a>
-	  <ul>
-	    <?php
-	      if($pagina=="maestria-educacion") echo '<li class="current">';
-	      else echo "<li>";
-	    ?>
-	    <a href="maestria-educacion.html">Educaci&#243;n</a></li>
-	    <?php
-	      if($pagina=="ciencias-penales") echo '<li class="current">';
-	      else echo "<li>";
-	    ?>
-	    <a href="ciencias-penales.html">Ciencias Penales</a></li>
-	    <?php
-	      if($pagina=="ciencias-de-la-computacion") echo '<li class="current">';
-	      else echo "<li>";
-	    ?>
-	    <a href="ciencias-de-la-computacion.html">Ciencias de la Computaci&#243;n</a></li>
-	    <?php
-	      if($pagina=="maestria-administracion") echo '<li class="current">';
-	      else echo "<li>";
-	    ?>
-	    <a href="maestria-administracion.html">Administraci&#243;n</a></li>
-	  </ul>
-	</li>
-      </ul>
-    </li>
-	<?php
-	  if(($pagina=="licenciaturas") or ($pagina=="informatica") or ($pagina=="derecho") or ($pagina=="contaduria") or ($pagina=="administracion")) echo '<li class="current">';
-	  else echo "<li>";
-      ?>
-	  <a href="licenciaturas.html" data-description="Formate como profesionista">Licenciaturas</a>
-	  <ul>
-	    <?php
-	      if($pagina=="informatica") echo '<li class="current">';
-	      else echo "<li>";
-	    ?>
-	  <a href="informatica.html">Inform&#225;tica Administrativa</a></li>
-	  <?php
-	      if($pagina=="derecho") echo '<li class="current">';
-	      else echo "<li>";
-	    ?>
-	  <a href="derecho.html">Derecho</a></li>
-	  <?php
-	      if($pagina=="contaduria") echo '<li class="current">';
-	      else echo "<li>";
-	    ?>
-	  <a href="contaduria.html">Contadur&#237;a P&#250;blica</a></li>
-	  <?php
-	      if($pagina=="administracion") echo '<li class="current">';
-	      else echo "<li>";
-	    ?>
-	  <a href="administracion.html">Administraci&#243;n de Empresas</a></li>
-	  </ul>
-	</li>
-	<?php
-	  if(($pagina=="contacto") or ($pagina=="comalapa") or ($pagina=="siltepec") or ($pagina=="motozintla") or ($pagina=="about-us")) echo '<li class="current">';
-	  else echo "<li>";
-	?>
-	<a href="contacto.html" data-description="nuestros datos">Contacto</a>
-	  <ul>
-	    <?php
-	      if($pagina=="comalapa") echo '<li class="current">';
-	      else echo "<li>";
-	    ?>
-	    <a href="comalapa.html">Comalapa</a></li>
-	    <?php
-	      if($pagina=="siltepec") echo '<li class="current">';
-	      else echo "<li>";
-	    ?>
-	    <a href="siltepec.html">Siltepec</a></li>
- <?php
-	      if($pagina=="motozintla") echo '<li class="current">';
-	      else echo "<li>";
-	    ?>
-	    <a href="motozintla.html">Motozintla</a></li>
-	    <?php
-	      if($pagina=="about-us") echo '<li class="current">';
-	      else echo "<li>";
-	    ?>
-	    <a href="about-us.html">Acerca De</a></li>
-	  </ul>
-	</li>
-      </ul>
+    	<?php
+    	require_once('menu.php');
+    	$menu = new Menu();
+    	$menu->printMenu($pagina);
+    	?>
     </nav><!-- end #main-nav -->
   </header><!-- end #header -->
   <?php
-    if(!($pagina) or $pagina=="index") include("inicio.php");
-    elseif(file_exists($pagina.".php")) include($pagina.".php");
+    if(!($pagina) or $pagina=="index") require_once("inicio.php");
+    elseif(file_exists($pagina.".php")) require_once($pagina.".php");
     else echo "error 404";
   ?>
     <footer id="footer" class="clearfix">
