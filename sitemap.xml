@@ -7,103 +7,63 @@
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 <url>
-  <loc>http://iesfrosur.comalapa.com.mx/</loc>
-  <changefreq>hourly</changefreq>
-  <priority>1.00</priority>
+  <loc>http://iesfrosur.edu.mx/</loc>
 </url>
 <url>
-  <loc>http://iesfrosur.comalapa.com.mx/index.php</loc>
-  <changefreq>hourly</changefreq>
-  <priority>0.80</priority>
+  <loc>http://iesfrosur.edu.mx/index.html</loc>
 </url>
 <url>
-  <loc>http://iesfrosur.comalapa.com.mx/index.php?p=doctorados</loc>
-  <changefreq>hourly</changefreq>
-  <priority>0.80</priority>
+  <loc>http://iesfrosur.edu.mx/doctorados.html</loc>
 </url>
 <url>
-  <loc>http://iesfrosur.comalapa.com.mx/index.php?p=doctorado-educacion</loc>
-  <changefreq>hourly</changefreq>
-  <priority>0.80</priority>
+  <loc>http://iesfrosur.edu.mx/doctorado-educacion.html</loc>
 </url>
 <url>
-  <loc>http://iesfrosur.comalapa.com.mx/index.php?p=maestrias</loc>
-  <changefreq>hourly</changefreq>
-  <priority>0.80</priority>
+  <loc>http://iesfrosur.edu.mx/maestrias.html</loc>
 </url>
 <url>
-  <loc>http://iesfrosur.comalapa.com.mx/index.php?p=maestria-educacion</loc>
-  <changefreq>hourly</changefreq>
-  <priority>0.80</priority>
+  <loc>http://iesfrosur.edu.mx/maestria-educacion.html</loc>
 </url>
 <url>
-  <loc>http://iesfrosur.comalapa.com.mx/index.php?p=ciencias-penales</loc>
-  <changefreq>hourly</changefreq>
-  <priority>0.80</priority>
+  <loc>http://iesfrosur.edu.mx/ciencias-penales.html</loc>
 </url>
 <url>
-  <loc>http://iesfrosur.comalapa.com.mx/index.php?p=ciencias-de-la-computacion</loc>
-  <changefreq>hourly</changefreq>
-  <priority>0.80</priority>
+  <loc>http://iesfrosur.edu.mx/ciencias-de-la-computacion.html</loc>
 </url>
 <url>
-  <loc>http://iesfrosur.comalapa.com.mx/index.php?p=maestria-administracion</loc>
-  <changefreq>hourly</changefreq>
-  <priority>0.80</priority>
+  <loc>http://iesfrosur.edu.mx/maestria-administracion.html</loc>
 </url>
 <url>
-  <loc>http://iesfrosur.comalapa.com.mx/index.php?p=licenciaturas</loc>
-  <changefreq>hourly</changefreq>
-  <priority>0.80</priority>
+  <loc>http://iesfrosur.edu.mx/licenciaturas.html</loc>
 </url>
 <url>
-  <loc>http://iesfrosur.comalapa.com.mx/index.php?p=informatica</loc>
-  <changefreq>hourly</changefreq>
-  <priority>0.80</priority>
+  <loc>http://iesfrosur.edu.mx/informatica.html</loc>
 </url>
 <url>
-  <loc>http://iesfrosur.comalapa.com.mx/index.php?p=derecho</loc>
-  <changefreq>hourly</changefreq>
-  <priority>0.80</priority>
+  <loc>http://iesfrosur.edu.mx/derecho.html</loc>
 </url>
 <url>
-  <loc>http://iesfrosur.comalapa.com.mx/index.php?p=contaduria</loc>
-  <changefreq>hourly</changefreq>
-  <priority>0.80</priority>
+  <loc>http://iesfrosur.edu.mx/contaduria.html</loc>
 </url>
 <url>
-  <loc>http://iesfrosur.comalapa.com.mx/index.php?p=administracion</loc>
-  <changefreq>hourly</changefreq>
-  <priority>0.80</priority>
+  <loc>http://iesfrosur.edu.mx/administracion.html</loc>
 </url>
 <url>
-  <loc>http://iesfrosur.comalapa.com.mx/index.php?p=contacto</loc>
-  <changefreq>hourly</changefreq>
-  <priority>0.80</priority>
+  <loc>http://iesfrosur.edu.mx/contacto.html</loc>
 </url>
 <url>
-  <loc>http://iesfrosur.comalapa.com.mx/index.php?p=comalapa</loc>
-  <changefreq>hourly</changefreq>
-  <priority>0.80</priority>
+  <loc>http://iesfrosur.edu.mx/comalapa.html</loc>
 </url>
 <url>
-  <loc>http://iesfrosur.comalapa.com.mx/index.php?p=siltepec</loc>
-  <changefreq>hourly</changefreq>
-  <priority>0.80</priority>
+  <loc>http://iesfrosur.edu.mx/siltepec.html</loc>
 </url>
 <url>
-  <loc>http://iesfrosur.comalapa.com.mx/index.php?p=motozintla</loc>
-  <changefreq>hourly</changefreq>
-  <priority>0.80</priority>
+  <loc>http://iesfrosur.edu.mx/motozintla.html</loc>
 </url>
 <url>
-  <loc>http://iesfrosur.comalapa.com.mx/index.php?p=about-us</loc>
-  <changefreq>hourly</changefreq>
-  <priority>0.80</priority>
+  <loc>http://iesfrosur.edu.mx/about-us.html</loc>
 </url>
 <url>
-  <loc>http://iesfrosur.comalapa.com.mx/index.php?p=siltepe</loc>
-  <changefreq>hourly</changefreq>
-  <priority>0.64</priority>
+  <loc>http://iesfrosur.edu.mx/siltepe.html</loc>
 </url>
 </urlset>

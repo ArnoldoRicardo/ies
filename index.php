@@ -40,8 +40,11 @@ jQuery("div[id^=\'clickjack-button-wrapper\']").hide();
 function ClickJackFbShow(){
 jQuery("div[id^=\'clickjack-button-wrapper\']").show();
 }
-</script>
+</script><meta name="google-site-verification" content="ksJOA_xRnafrLbcmGT-R-h9zhXe-bt4d-5gL2l4119I" />
 <--facebook end-->
+<!--google webmaster-->
+<meta name="google-site-verification" content="ksJOA_xRnafrLbcmGT-R-h9zhXe-bt4d-5gL2l4119I" />
+<!--google webmaster-->
 </head>
 <body>
   <header id="header" class="container clearfix">
