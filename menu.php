@@ -27,7 +27,7 @@ class Menu{
 				'GET' => 'blog',
 				'name' => 'blog',
 				'description' => 'día a día',
-				'link' => 'http://.iesfrosur.edu.mx/'
+				'link' => 'http://blog.iesfrosur.edu.mx/'
 			),
 			2 => array(
 				'GET' => 'posgrados',

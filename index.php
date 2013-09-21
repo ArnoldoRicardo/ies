@@ -62,7 +62,7 @@ jQuery("div[id^=\'clickjack-button-wrapper\']").show();
   <?php
     if(!($pagina) or $pagina=="index") require_once("inicio.php");
     elseif(file_exists($pagina.".php")) require_once($pagina.".php");
-    else echo "error 404";
+    else require_once("inicio.php");
   ?>
     <footer id="footer" class="clearfix">
       <div class="container">
