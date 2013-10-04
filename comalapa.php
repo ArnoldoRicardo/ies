@@ -19,7 +19,7 @@
     </div><!-- end .one-fourth -->
     <div class="three-fourth last">
 
-      <h3>Let's keep in touch</h3>
+      <h3>Mantente en contacto</h3>
 
       <form action="php/contact-send.php" method="post" class="contact-form">
       
