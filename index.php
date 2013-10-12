@@ -60,9 +60,9 @@ jQuery("div[id^=\'clickjack-button-wrapper\']").show();
     </nav><!-- end #main-nav -->
   </header><!-- end #header -->
   <?php
-    if(!($pagina) or $pagina=="index") require_once("inicio.php");
-    elseif(file_exists($pagina.".php")) require_once($pagina.".php");
-    else require_once("inicio.php");
+     if(!($pagina) or $pagina=="index") require_once("views/inicio.php");
+    elseif(file_exists("views/".$pagina.".php")) require_once("views/".$pagina.".php");
+    else require_once("views/inicio.php");
   ?>
     <footer id="footer" class="clearfix">
       <div class="container">
