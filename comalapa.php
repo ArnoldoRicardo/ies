@@ -48,7 +48,8 @@
           <input name="spam-check" type="text" value="" id="contact-spam-check" />
         </div>
 
-        <input name="submit" type="submit" value="Submit">
+        <input type="hidden" name="enviar" value="true">
+        <input type="submit" value="Submit">
 
         <div class="clear"></div>
 
