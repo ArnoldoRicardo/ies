@@ -18,5 +18,6 @@
       Email:iesfrosursiltepec@gmail.com<br/>
       Web: <?php echo $dominio; ?></p>
     </div><!-- end .one-fourth -->
+    <?php require_once("views/contacto/form-messeng.php"); ?>
   </div><!-- end .container -->
 </section><!-- end #content -->
