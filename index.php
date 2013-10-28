@@ -14,7 +14,8 @@ include("var.php");
   <title>iesfrosur</title>
   <meta name="description" content="" />
   <meta name="author" content="" />
-  <meta property="og:image" content="img/favicon.ico"/>
+  <meta property="og:image" content="http://iesfrosur.edu.mx/img/ies.png"/>
+  <meta property="og:description" content="Instituto de Estudios Superiores Frontera Sur... comprometidos con la educación."/>
   <!--[if !lte IE 6]><!-->
   <link rel="shortcut icon" href="img/favicon.ico" />
   <link rel="stylesheet" href="css/style.min.css" media="screen" />
