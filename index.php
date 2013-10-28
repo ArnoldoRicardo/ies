@@ -14,8 +14,9 @@ include("var.php");
   <title>iesfrosur</title>
   <meta name="description" content="" />
   <meta name="author" content="" />
+  <meta property="og:image" content="img/favicon.ico"/>
   <!--[if !lte IE 6]><!-->
-  <link rel="shortcut icon" href="img/favicon.ico" />  
+  <link rel="shortcut icon" href="img/favicon.ico" />
   <link rel="stylesheet" href="css/style.min.css" media="screen" />
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,600,300,800,700,400italic|PT+Serif:400,400italic" />
   <!--<link rel="stylesheet" href="css/fancybox.min.css" media="screen" />
