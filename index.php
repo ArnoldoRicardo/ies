@@ -32,21 +32,9 @@ include("var.php");
   <!-- HTML5 video player -->
   <!--<script src="js/video.min.js"></script>
   <script>_V_.options.flash.swf = 'http://localhost/smartstart/js/video-js.swf';</script>-->
-<!--facebook
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js" type="text/javascript">
-</script>
-<script type="text/javascript">
-function ClickJackFbHide(){
-jQuery("div[id^=\'clickjack-button-wrapper\']").hide();
-}
-function ClickJackFbShow(){
-jQuery("div[id^=\'clickjack-button-wrapper\']").show();
-}
-</script><meta name="google-site-verification" content="ksJOA_xRnafrLbcmGT-R-h9zhXe-bt4d-5gL2l4119I" />
-<--facebook end-->
 <!--google webmaster-->
 <meta name="google-site-verification" content="ksJOA_xRnafrLbcmGT-R-h9zhXe-bt4d-5gL2l4119I" />
-<!--google webmaster-->
+<!--end google webmaster-->
 </head>
 <body>
   <header id="header" class="container clearfix">
@@ -128,37 +116,5 @@ jQuery("div[id^=\'clickjack-button-wrapper\']").show();
       else echo '<script src="js/custom.min.js"></script>';
 ?>
     <!--<![endif]-->
-<!--facebook
-<div id="clickjack-button-wrapper-5" style="position: absolute; opacity: 0; filter: alpha(opacity = 0); -ms-filter:\'progid:DXImageTransform.Microsoft.Alpha(Opacity=0)\';  margin-left: -50px; z-index: 100; width:27px; height:20px; overflow:hidden">
-<iframe src="http://www.facebook.com/plugins/like.php?href=http://www.facebook.com/iesfrosur&layout=button_count&show_faces=false&width=50&action=like&colorscheme=light&height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:45px; left:-19px; height:21px; z-index: 0; position: relative;" allowTransparency="true"></iframe>
-        </div>
-        <script type="text/javascript">
-                jQuery( document ).ready( function() {
-                         $( "#clickjack-button-wrapper-5" ).parent().mousemove( function( e ) {
-                                jQuery( "#clickjack-button-wrapper-5" ).css( {
-                                        top: e.pageY - 10,
-                                        left: e.pageX + 30
-                                } );
-                        } );
- 
-                       clickjack_hider();
-                        var clickjack_fb_timer = setTimeout("clickjack_hider()",5000);
-                } );
- 
-                        function clickjack_hider(){
-                        jQuery("input").mouseout(function(){ClickJackFbShow();});
-                        jQuery("a").mouseout(function(){ClickJackFbShow();});
-                        jQuery("button").mouseout(function(){ClickJackFbShow();});
-                        jQuery("textarea").mouseout(function(){ClickJackFbShow();});
-                        jQuery(".ratingblock").mouseout(function(){ClickJackFbShow();});                        jQuery("object").mouseout(function(){ClickJackFbShow();});
-                        jQuery("input").mouseover(function(){ClickJackFbHide();});
-                        jQuery("a").mouseover(function(){ClickJackFbHide();});
-                        jQuery("button").mouseover(function(){ClickJackFbHide();});
-                        jQuery("textarea").mouseover(function(){ClickJackFbHide();});
-                        jQuery(".ratingblock").mouseover(function(){ClickJackFbHide();});                       jQuery("object").mouseover(function(){ClickJackFbHide();});
-                        }
- 
-        </script>
-<--facebook end-->
   </body>
 </html>
